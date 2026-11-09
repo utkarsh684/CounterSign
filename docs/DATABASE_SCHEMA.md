@@ -39,7 +39,7 @@ erDiagram
 - `key_hash`: VARCHAR(64) NOT NULL (SHA-256 of full key)
 - `scopes`: JSON NOT NULL DEFAULT '["inbox:read", "payment:propose"]'
 - `is_active`: BOOLEAN NOT NULL DEFAULT TRUE
-- `expires_at`: DATETIME(6) UTC
+- `expires_at`: DATETIME(6) UTC 
 - `created_at`: DATETIME(6) UTC NOT NULL
 
 ### 3. `mandates`
